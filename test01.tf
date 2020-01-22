@@ -6,10 +6,7 @@ provider "huaweicloud" {
   access_key  = var.hw_access_key
   secret_key  = var.hw_secret_key
 }
-data "huaweicloud_images_image_v2" "os" {
-  name = var.image_name
-  most_recent = true
-}
+
 resource "huaweicloud_networking_router_v2" "router" {
   name             = "router_example"
   admin_state_up   = "true"
