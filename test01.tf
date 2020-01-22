@@ -1,5 +1,5 @@
 provider "huaweicloud" {
-  tenant_name = "elecpark"
+  #tenant_name = "elecpark"
   auth_url    = "https://iam.cn-north-1.myhuaweicloud.com/v3"
   insecure    = "false"
   region      = var.hw_region
