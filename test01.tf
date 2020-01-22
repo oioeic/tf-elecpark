@@ -1,6 +1,6 @@
 provider "huaweicloud" {
   # tenant_name = "cn-south-1"
-  auth_url    = "https://iam.cn-south-1.myhuaweicloud.com/v3"
+  auth_url    = "https://iam.cn-north-1.myhuaweicloud.com/v3"
   insecure    = "false"
   region      = var.hw_region
   access_key  = var.hw_access_key
