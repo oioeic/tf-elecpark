@@ -30,7 +30,6 @@ resource "huaweicloud_networking_subnet_v2" "subnet" {
 
 resource "huaweicloud_networking_router_interface_v2" "interface" {
   router_id = huaweicloud_networking_router_v2.router.id
-  network_id = huaweicloud_networking_router_v2.network.id
   subnet_id = huaweicloud_networking_subnet_v2.subnet.id
 }
 
